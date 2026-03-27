@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Velumie | Where Light Meets Emotion</title>
-    
-    <meta name="description" content="Velumie - Vẻ đẹp mong manh, ánh sáng vĩnh cửu. Art & Fine Art Photography.">
-    
+
+    <title>Velumie | Where Light Becomes Feeling</title>
+    <meta name="description" content="Velumie — Vẻ đẹp mong manh, ánh sáng còn lại. Fine Art Photography.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Velumie">
+    <meta property="og:description" content="Fragile beauty, light remains.">
+    <meta property="og:type" content="website">
+
+    <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+    <!-- (Optional) Favicon -->
+    <!-- <link rel="icon" href="favicon.ico"> -->
 
     <style>
         body {
@@ -16,17 +25,19 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #fcfcfc; 
-            /* Font chữ Cormorant tạo cảm giác nghệ thuật hơn Georgia */
-            font-family: 'Cormorant Garamond', serif; 
+
+            /* Velum gradient */
+            background: radial-gradient(circle at center, #ffffff 0%, #f5f5f3 60%, #ececec 100%);
+
+            font-family: 'Cormorant Garamond', serif;
             color: #333;
             text-align: center;
-            /* Hiệu ứng hiện ra từ sương mờ (Tĩnh trong Động) */
-            animation: fadeIn 3s ease-in-out;
+
+            animation: fadeIn 2.5s ease-in-out;
         }
 
         @keyframes fadeIn {
-            0% { opacity: 0; filter: blur(8px); }
+            0% { opacity: 0; filter: blur(4px); }
             100% { opacity: 1; filter: blur(0); }
         }
 
@@ -37,25 +48,50 @@
         h1 {
             font-size: 3rem;
             font-weight: 300;
-            letter-spacing: 0.5rem; /* Giãn chữ rộng tạo sự thoáng đãng */
+            letter-spacing: 0.5rem;
             margin-bottom: 5px;
             text-transform: uppercase;
+
+            /* subtle light */
+            text-shadow: 0 0 10px rgba(0,0,0,0.05);
         }
 
         .slogan {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-style: italic;
             color: #777;
             letter-spacing: 0.1rem;
-            margin-bottom: 30px;
+            margin-bottom: 35px;
         }
 
         .mantra {
             font-size: 0.9rem;
             color: #999;
             line-height: 1.8;
-            max-width: 400px;
+            max-width: 420px;
             margin: 0 auto;
+        }
+
+        .sub-mantra {
+            font-size: 0.75rem;
+            opacity: 0.6;
+        }
+
+        .email {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #aaa;
+            letter-spacing: 0.05rem;
+        }
+
+        .email a {
+            text-decoration: none;
+            color: inherit;
+            transition: opacity 0.3s ease;
+        }
+
+        .email a:hover {
+            opacity: 0.6;
         }
 
         .coming-soon {
@@ -65,22 +101,34 @@
             letter-spacing: 0.6rem;
             color: #ccc;
         }
+
     </style>
 </head>
+
 <body>
     <div class="container">
+
         <h1>VELUMIE</h1>
-        <div class="slogan">Where Light Meets Emotion</div>
-        
+
+        <div class="slogan">Where light becomes feeling</div>
+
         <div class="mantra">
-            Vẻ đẹp mong manh, ánh sáng vĩnh cửu.<br>
-            <span style="font-size: 0.8rem; opacity: 0.7;">
-                Beauté éphémère, lumière éternelle.<br>
-                Hakanaki bi, towa no hikari.
+            Fragile beauty, light remains.<br>
+            <span class="sub-mantra">
+                Beauté éphémère, la lumière demeure.<br>
+                Hakanai utsukushisa, hikari wa nokoru.<br>
+                Vẻ đẹp mong manh, ánh sáng còn lại.
             </span>
         </div>
 
-        <div class="coming-soon">Coming Soon</div>
+        <div class="email">
+            <a href="mailto:contact@velumie.com">Contact</a>
+        </div>
+
+        <div class="coming-soon">
+            Coming into light
+        </div>
+
     </div>
 </body>
 </html>
