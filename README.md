@@ -1,4 +1,4 @@
-# VELUMIE | Where Light Meets Emotion
+# VELUMIE | Where Light Becomes Emotion
 
 > *"Vẻ đẹp mong manh, ánh sáng vĩnh cửu."*
 
